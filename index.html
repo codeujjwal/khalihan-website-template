@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- SITE TITTLE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khalihan Bazaar</title>
+
+  <!-- PLUGINS CSS STYLE -->
+  <!-- Bootstrap -->
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Themefisher Font -->
+  <link href="plugins/themefisher-font/style.css" rel="stylesheet">
+  <!-- Slick Carousel -->
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <!-- Slick Carousel Theme -->
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- FAVICON -->
+  <link href="images/favicon.png" rel="shortcut icon">
+  <style>
+    carousel img {
+
+      margin: auto;
+
+    }
+  </style>
+</head>
+
+<body class="body-wrapper">
+
+
+  <nav style="height: 70px; padding: 0 100px;" class="navbar main-nav fixed-top navbar-expand-lg">
+    <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"
+        style="height:40px; max-width: 100%"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="tf-ion-android-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#about">What's New</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#team">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#download">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#myCarousel">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#testimonial">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#contact">Download</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--=====================================
+=            Homepage Banner            =
+======================================-->
+
+  <section class="banner bg-1" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 align-self-center">
+          <!-- Contents -->
+          <div class="content-block" style="margin-left: 100px;">
+            <p
+              style="width: fit-content; background-color: #E8CD84;border-radius: 4px;margin-bottom: 20px; padding: 1px 8px;">
+              Lorem Ipsum lorem Ipsum</p>
+            <h2 style="margin-bottom: 20px;"><b>Lorem Ipsum </br> is simply </br> dummy text</b></span></h2>
+            <p style="margin-bottom: 20px;">Lorem Ipsum has been the<br> industry's standard dummy </p>
+            <!-- App Badge -->
+            <div class="app-badge">
+              <li class="list-inline-item">
+                <a href="#"><img class="img-fluid" src="images/gplay.png" alt="google-play"
+                    style="border-radius:18px; height:50px; max-width:100% ; "></a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--====  End of Homepage Banner  ====-->
+
+  <!--===========================
+=            About            =
+============================-->
+
+  <section class="about section bg-2" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <!-- Image Content -->
+          <div class="image-block">
+            <div class="container">
+              <div class="filterDiv cars"><img src="images/mob1.png"></div>
+              <div class="filterDiv animals"><img src="images/mob2.png"></div>
+              <div class="filterDiv fruits"><img src="images/mob3.png"></div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10 m-md-auto align-self-center ml-auto">
+          <h3 style="color:black; font-weight: 800;">What is Khalihan Bazaar?</h3><br><br>
+          <div class="about-block">
+            <!-- About 01 -->
+            <div id="myBtnContainer">
+              <button class="btn" style="text-align: left;" onclick="filterSelection('cars')">
+                <div class="about-item">
+                  <div class="icon">
+                    <i class="tf-ion-ios-paper-outline"></i>
+                  </div>
+                  <div class="content">
+                    <h5>BUY/SELL COMMODITIES</h5>
+                    <p>Now farmers will become agripreneurs</p>
+                  </div>
+                </div>
+              </button>
+              <button class="btn" style="text-align: left;" onclick="filterSelection('animals')">
+                <div class="about-item">
+                  <div class="icon">
+                    <i class="tf-ion-ios-paper-outline"></i>
+                  </div>
+                  <div class="content">
+                    <h5>CONTRACT FARMING</h5>
+                    <p>
+                      Now collaborate with different industries
+                    <p>
+                  </div>
+                </div>
+              </button><button class="btn" style="text-align: left;" onclick="filterSelection('fruits')">
+                <div class="about-item">
+                  <div class="icon">
+                    <i class="tf-ion-ios-paper-outline"></i>
+                  </div>
+                  <div class="content">
+                    <h5>Meet national level buyers</h5>
+                    <p>Meet national level buyers with this app</p>
+                  </div>
+                </div>
+              </button>
+
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    filterSelection("cars")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+
+  <!--====  End of About  ====-->
+
+
+  <!--==========================
+=            Team            =
+===========================-->
+
+  <section class="section team bg-shape-two" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2 style="color: white; font-weight: 1000;">our team</h2>
+            <p style="color: white;">Demoralized by the charms of pleasure of the moment, so blinded by desire, that
+              they cannot foresee idea
+              of denouncing pleasure and praising</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <!-- Team Member -->
+          <div class="team-member" style="display: flex; flex-direction: row;">
+            <div class="image">
+              <img class="img-fluid" src="images/team/member-one.jpg" alt="team-member">
+            </div>
+            <div class="team-content">
+
+              <div class="name">
+                <h5>Anshul Jha</h5>
+              </div>
+              <div class="position">
+                <p>MD, Khalihan Bazaar</p>
+              </div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <!-- Team Member -->
+          <div class="team-member" style="display: flex; flex-direction: row;">
+            <div class="image">
+              <img class="img-fluid" src="images/team/member-three.jpg" alt="team-member">
+            </div>
+            <div class="team-content">
+
+              <div class="name">
+                <h5>Ramesh Tiwar</h5>
+              </div>
+              <div class="position">
+                <p>CEO, Khalihan Bazaar</p>
+              </div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <!-- Team Member -->
+          <div class="team-member" style="display: flex; flex-direction: row;">
+            <div class="image">
+              <img class="img-fluid" src="images/team/member-two.jpg" alt="team-member">
+            </div>
+            <div class="team-content">
+              <div class="name">
+                <h5>Sunil Parashar</h5>
+              </div>
+              <div class="position">
+                <p>MD, XYZ Company</p>
+              </div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <!-- Team Member -->
+          <div class="team-member" style="display: flex; flex-direction: row;">
+            <div class="image">
+              <img class="img-fluid" src="images/team/member-four.jpg" alt="team-member">
+            </div>
+            <div class="team-content">
+
+              <div class="name">
+                <h5>Jaideep Mehra</h5>
+              </div>
+              <div class="position">
+                <p>CEO, ABC Company</p>
+              </div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <br><br><br><br><br>
+  <!--====  End of Team  ====-->
+
+
+
+
+  <div id="section3" style="background-color:#FDBF2F; margin-top: -100px; padding-bottom: 100px;"
+    class="container-fluid">
+    <div class="container container-fluid">
+      <center>
+        <h1>Khalihan Bazaar App</h1>
+      </center>
+      <div id="myCarousel" style="width: 500px; margin-top: 50px;" class="carousel slide center" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" class="center">
+
+          <div class="item active" class="center">
+            <img src="images\mob6.jpg" alt="Los Angeles" style="width: 200px;" class="center">
+            <div class="carousel-caption">
+            </div>
+          </div>
+
+          <div class="item" class="center">
+            <img src="images\mob5.png" alt="Chicago" style="width: 200px;" class="center">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+
+          <div class="item" class="center">
+            <img src="images\mob4.png" alt="New York" style="width: 200px;;" class="center">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+
+          <div class="item" class="center">
+            <img src="images\mob3.png" alt="New York" style="width: 200px;" class="center">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+
+          <div class="item" class="center">
+            <img src="images\mob2.png" alt="New York" style="width: 200px;" class="center">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <!--=================================
+=            Testimonial            =
+==================================-->
+
+  <div class="testimonial-head">
+    <div class="row">
+
+      <div class="section-title">
+        <img src="images/shinchan.png" style="height:200px; max-width:100%; margin-bottom: 30px;">
+        <h2 class="text-gray">Khalihan Bazaar <b>has thousands of 5-star reviews</b></h2>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="section testimonial bg-primary-shape" id="testimonial">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8">
+          <!-- Testimonial Carosel -->
+          <div class="card-deck" style="width: 150%;">
+            <div class="card" style="background:#39261A; border-radius:18px; padding: 50px 30px; height: 400px;">
+              <div class="card-body">
+                <br>
+                <ul class="rating list-inline">
+                  <li class="list-inline-item">
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                  </li>
+                </ul>
+                <h5 class="card-title white">Simply Amazing App</h5>
+                <p class="card-text white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <hr>
+                <p class="card-text "><small class=" white">Anshul Jha, Google Play</small></p>
+              </div>
+            </div>
+            <div class="card" style="background:#39261A; border-radius:18px; padding: 50px 30px; height: 400px;">
+              <div class="card-body">
+                <br>
+                <ul class="rating list-inline">
+                  <li class="list-inline-item">
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                  </li>
+                </ul>
+                <h5 class="card-title white">Easy to Buy and Sell</h5>
+                <p class="card-text white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <hr>
+                <p class="card-text "><small class=" white">Mahendra Sharma, Google Play</small></p>
+              </div>
+            </div>
+            <div class="card" style="background:#39261A; border-radius:18px; padding: 50px 30px; height: 400px;">
+              <div class="card-body">
+                <br>
+                <ul class="rating list-inline">
+                  <li class="list-inline-item">
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                    <i class="tf-ion-android-star"></i>
+                  </li>
+                </ul>
+                <h5 class="card-title white">Revolutionary App!</h5>
+                <p class="card-text white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <hr>
+                <p class="card-text "><small class="white">Ranveer Dahiya, Google Play</small></p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!--====  End of Testimonial  ====-->
+
+  <!--=============================================
+=            Call to Action Download            =
+==============================================-->
+
+  <section class="cta-download bg-3 overlay" id="download">
+    <div class="container" id="download">
+
+      <div class="col-lg-7">
+        <div class="content-block">
+          <!-- Title -->
+          <img src="images/logoo.jpg" style="border-radius:18px; height:100px; max-width:100% ; margin-bottom: 80px;">
+          <h2 style="color:black; font-weight: 900; ">Join over a million of happy users!</h2>
+          <!-- Desctcription -->
+          <p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s.</p>
+          <!-- App Badge -->
+          <div class="app-badge">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"><img class="img-fluid" src="images/gplay.png" alt="google-play"
+                    style="border-radius:18px; height:100px; max-width:100% ; "></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img style="width: 250px;" src="images/mob1.png" alt="">
+    </div>
+    </div>
+  </section>
+
+  <!--====  End of Call to Action Download  ====-->
+
+  <div style="background-color: #F5E391; margin: -1px; padding: 20px 0px; text-align: center;">
+    <h2>India is talking about us</h2>
+  </div>
+
+  <img src="images/logoss.jpeg" style="width:100%">
+
+  <!--============================
+=            Footer            =
+=============================-->
+
+  <footer class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" style="display: flex; flex-direction: row;">
+          <div class="footer-logo">
+            <img src="images/quesmark.jpeg" alt="footer-logo">
+          </div>
+          <div>
+            <h4 style="color: black; font-weight: 600;">Have Any Question?</h4>
+            <h5
+              style="margin-top: 20px; color: #FDBF2F; background-color: black; border-radius: 10px; width: 300px;text-align: center; padding: 10px 20px;">
+              Contact Support</h5>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h4 style="color: black; font-weight: 500;">Quick Links</h4>
+          <ul class="footer-links list-inline">
+            <li class="list-inline-item">
+              <a href="#">What's New </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Testimonials</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Features</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">OurTeam</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Contact Us</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div class="adress"><span>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.sitatibus mollitia minus
+            magni nam.</span></div>
+        <div class="email"><span>info@Khalihanbazar.com</span></div>
+        <div class="phone"><span>+91 9829304828</span></div>
+      </div>
+    </div>
+  </footer>
+  <footer class="container-fluid bg-4 text-center" style="text-align: left; font: normal normal medium 14px/34px Poppins; letter-spacing: 0px; color: #FFFFFF; opacity: 1;
+background: #39261A 0% 0% no-repeat padding-box; display: flex; align-items: center; justify-content: space-between;">
+    <p style="color: white; float: left;">© 2020 Khalihan Bazaar. All rights reserved.</p>
+    <!-- Social Icons -->
+    <ul class="social-icons list-inline" style="float:right">
+      <li class="list-inline-item">
+        <a href=""><i class="tf-ion-social-facebook"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href=""><i class="tf-ion-social-twitter"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href=""><i class="tf-ion-social-linkedin"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href=""><i class="tf-ion-social-instagram-outline"></i></a>
+      </li>
+    </ul>
+
+  </footer>
+
+
+
+  <!-- JAVASCRIPTS -->
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA" async
+    defer></script>
+
+  <script src="plugins/jquery/jquery.js"></script>
+  <script src="plugins/popper/popper.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
