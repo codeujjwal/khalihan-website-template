@@ -41,7 +41,7 @@
 <body class="body-wrapper">
 
 
-  <nav style="height: 70px; padding: 0 100px;" class="navbar main-nav fixed-top navbar-expand-lg">
+  <!-- <nav style="height: 70px; padding: 0 100px;" class="navbar main-nav fixed-top navbar-expand-lg">
     <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"
         style="height:40px; max-width: 100%"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -69,6 +69,25 @@
           <a class="nav-link scrollTo" href="#contact">Download</a>
         </li>
       </ul>
+    </div>
+  </nav> -->
+
+
+  <nav class="navbar navbar-expand-lg fixed-top main-nav" style="background-color: #fdbf2f;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"
+        style="height:40px; max-width: 100%">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" >
+          <a class="nav-link active" aria-current="page" href="#about">What's New</a>
+          <a class="nav-link active" aria-current="page" href="#team">Our Team</a>
+          <a class="nav-link active" aria-current="page" href="#myCarousel">Features</a>
+          <a class="nav-link active" aria-current="page" href="#testimonial">Testimonials</a>
+          <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+          <a class="nav-link active" aria-current="page" href="#download">Download</a>
+        </div>
+      </div>
     </div>
   </nav>
   <!--=====================================
@@ -108,16 +127,15 @@
 
   <section class="about section bg-2" id="about">
     <div class="container">
-      <div class="row">
+      <div class="row" id="about-container">
         <div class="col-lg-5">
           <!-- Image Content -->
           <div class="image-block">
-            <div class="container">
+            <div class="container" id="imgcentered">
               <div class="filterDiv cars"><img src="images/mob1.png"></div>
               <div class="filterDiv animals"><img src="images/mob2.png"></div>
               <div class="filterDiv fruits"><img src="images/mob3.png"></div>
             </div>
-
           </div>
         </div>
         <div class="col-lg-6 col-md-10 m-md-auto align-self-center ml-auto">
@@ -568,11 +586,11 @@
         </div>
       </div>
       <hr>
-      <div style="display: flex; flex-direction: row; justify-content: space-between;">
-        <div class="adress"><span>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.sitatibus mollitia minus
+      <div class="footer-info" style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div class="address my-4"><span>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.sitatibus mollitia minus
             magni nam.</span></div>
-        <div class="email"><span>info@Khalihanbazar.com</span></div>
-        <div class="phone"><span>+91 9829304828</span></div>
+        <div class="email my-4"><span>info@Khalihanbazar.com</span></div>
+        <div class="phone my-4"><span>+91 9829304828</span></div>
       </div>
     </div>
   </footer>

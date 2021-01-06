@@ -175,7 +175,7 @@ a:hover {
 
 .bg-1 {
   background: url(../images/p3bg.png);
-  background-position-x: -250px;
+  background-position-x: -100px;
 }
 
 .bg-2 {
@@ -545,6 +545,10 @@ a:hover {
   position: relative;
 }
 
+.navbar-nav {
+  position: absolute;
+  right: 20px;
+}
 .main-nav .navbar-nav .nav-item .nav-link {
   position: relative;
   text-align: center;
@@ -942,12 +946,6 @@ a:hover {
 .banner .content-block h5 {
   text-transform: uppercase;
   margin-bottom: 75px;
-}
-
-@media (max-width: 480px) {
-  .banner .content-block {
-    text-align: center;
-  }
 }
 
 @media (max-width: 480px) {
@@ -2446,7 +2444,6 @@ a:hover {
   border-radius: 18px;
   background-color: #e8cd84;
   cursor: pointer;
-  float: right;
   width: 500px;
   height: 120px;
   margin-top: 20px;
@@ -2468,3 +2465,38 @@ a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+@media (max-width: 999px) {
+  .footer-info {
+    flex-direction: column !important;
+  }
+  .card-deck {
+    flex-direction: column !important;
+  }
+  .card {
+    width: 500px;
+    margin-bottom: 30px;
+  }
+  #about-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #imgcentered {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 550px) {
+  .card {
+    width: 350px;
+  }
+  .btn {
+    width: 450px;
+  }
+  .about .about-block .about-item {
+    padding: 0;
+  }
+  #myCarousel {
+    width: auto !important;
+  }
+}
