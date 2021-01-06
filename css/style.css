@@ -1105,7 +1105,7 @@ a:hover {
 
 .cta-download {
   position: relative;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 .cta-download .image-block {
@@ -2448,11 +2448,6 @@ a:hover {
   height: 120px;
   margin-top: 20px;
 }
-.btn.active {
-  background-color: #39261a;
-  outline: none;
-  border: none;
-}
 
 .white {
   color: white;
@@ -2515,5 +2510,8 @@ a:hover {
     font-size: 30px !important;
     margin: 0px 10px;
     font-weight: 900 !important;
+  }
+  .content-block {
+    margin-left: 20px !important;
   }
 }
